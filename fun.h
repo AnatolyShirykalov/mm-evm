@@ -14,3 +14,4 @@ int layer(double ,int ,double ,double ,double *,double *);
 double *v_bounds(int ,double ,double *);
 double *v0(int ,double *);
 double analitic(double ,double );
+void pl(int ,double *);

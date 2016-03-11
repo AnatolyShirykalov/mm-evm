@@ -24,7 +24,7 @@ int layer(double eps,int n,double tau,double h,double *v,double *hat_v){
   err = norm_max(n,b);
   if (err<eps) printf("Ошибка %e\neps %e\n",norm_max(n,b),eps);
   if (norm_max(n,b) < eps) {
-    clean_all(4,pts); return 0;
+    clean_all(5,pts); return 0;
   }
   for(i=n-6,a[n-5] = 1/tau;i>=0;i--) {
     a[i] = 1/tau;
